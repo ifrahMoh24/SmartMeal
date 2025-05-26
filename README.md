@@ -21,17 +21,6 @@ Built for people who want to cook smarter, healthier, and faster.
 | Data Storage | UserDefaults, Core Data (optional) |
 | Tools        | Xcode, Create ML, GitHub |
 
-## 🗂️ Project Structure
-
-SmartMeal/
-├── App/ # App Entry Point
-├── Models/ # Data models (Recipe, NutritionInfo, etc.)
-├── ViewModels/ # Logic for managing state
-├── Views/ # Screens: Scan, Recipes, Profile
-│ └── Components/ # Reusable UI components
-├── Services/ # Ingredient detector, recipe generator, etc.
-├── MLModels/ # Trained .mlmodel files
-└── Resources/ # Assets, Info.plist, Launch screen
 
 
 ## 🚀 Getting Started
