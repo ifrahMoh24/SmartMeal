@@ -1,3 +1,4 @@
+
 🍽️ SmartMeal – AI-Powered iOS Meal Planner
 
 An AI-powered iOS app that turns food photos into personalized recipes and meal plans. Built with SwiftUI + CoreML, it combines machine learning, nutrition insights, and iOS native features to help users eat smarter.
@@ -47,9 +48,14 @@ Architecture: MVVM
 ✅ Media integration for snapping/processing food photos
 
 📷 Screenshots & Demo
+
+
 <img width="297" height="621" alt="Screenshot 2025-10-27 at 15 03 24" src="https://github.com/user-attachments/assets/2a64a94f-8bf2-4bf5-b196-c1780b917722" />
+
 <img width="320" height="636" alt="Screenshot 2025-10-27 at 15 02 28" src="https://github.com/user-attachments/assets/731942b1-2ac0-4af4-9a9a-10f023206252" />
+
 <img width="312" height="630" alt="Screenshot 2025-10-27 at 15 03 12" src="https://github.com/user-attachments/assets/101b5ed7-2d61-4822-b516-63ce405a26b5" />
+
 <img width="294" height="624" alt="Screenshot 2025-10-27 at 15 02 54" src="https://github.com/user-attachments/assets/a4693c5e-0cb7-46d1-a34f-8779ad6560cd" />
 
 
