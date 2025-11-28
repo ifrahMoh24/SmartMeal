@@ -1,85 +1,41 @@
+# SmartMeal — AI‑Powered iOS Meal Planner
 
-🍽️ SmartMeal – AI-Powered iOS Meal Planner
+## 📍 Overview
+SmartMeal is an AI-driven iOS app that generates meal plans and recipes from photos of food ingredients. Point your camera at your ingredients or upload a photo, and SmartMeal will identify items using a custom CoreML model and suggest recipes with portion sizes and nutritional info.
 
-An AI-powered iOS app that turns food photos into personalized recipes and meal plans. Built with SwiftUI + CoreML, it combines machine learning, nutrition insights, and iOS native features to help users eat smarter.
+## 🚀 Features
+- Capture or upload images of ingredients via your iPhone
+- Ingredient recognition using a trained CoreML model
+- Recipe generation with portion sizes and nutrition breakdown
+- Meal planning: assemble weekly meal plans based on user goals
+- Save favourite recipes locally
+- Clean SwiftUI interface for iOS 14+
 
-👥 Project Team
+## 💙 Tech Stack
+- **Frontend (iOS):** Swift, SwiftUI, UIKit (for some components)
+- **Backend:** Python, Flask REST API
+- **ML/AI:** CoreML model (trained using YOLOv8), OpenCV
+- **Database:** Local storage (CoreData); optionally Firebase for cloud sync
+- **Tools:** Xcode, Docker, Postman
 
-Ifrah Mohamed Sheikh Ahmed – iOS Developer, ML integration
+## 📱 Screenshots / Demo
+(Add your existing screenshots here)
 
-Sharon Kabamba – UI/UX, app structure
+## ⚙️ Installation & Setup
+1. Clone the repo
+2. Install Python dependencies for the backend
+3. Build and run the iOS project in Xcode
+4. Ensure your device can reach the Flask API
 
-🚀 Project Overview
+## 🗂️ Folder Structure
+- `SmartMeal1.xcodeproj` — Xcode project for the iOS app
+- `SmartMeal1/` — Swift source code (Views, ViewModels, Models)
+- `backend/` — Flask API and ML scripts
+- `README.md` — Project documentation
 
-SmartMeal enables users to:
+## 📍 Status
+Active — feature complete for MVP, with plans to enhance meal‑planning algorithms.
 
-📷 Snap a food photo → AI detects ingredients
-
-🧮 Get nutritional breakdown per meal
-
-🍳 Receive recipe suggestions tailored to ingredients
-
-🗓️ Build personalized meal plans with notifications & reminders
-
-🔔 Stay consistent with meal tracking alerts
-
-🔧 Tech Stack
-
-Language: Swift
-
-Frameworks: SwiftUI, CoreML, AVFoundation, MapKit, CoreData
-
-Platform: iOS (Xcode project)
-
-Architecture: MVVM
-
-✨ Features
-
-✅ 5+ unique front-end screens with polished UI
-
-✅ Notifications for meal reminders
-
-✅ Live data from APIs/services
-
-✅ Camera + ML image analysis (ingredient detection)
-
-✅ Local storage (UserDefaults & CoreData for saving plans)
-
-✅ Media integration for snapping/processing food photos
-
-📷 Screenshots & Demo
-
-
-<img width="297" height="621" alt="Screenshot 2025-10-27 at 15 03 24" src="https://github.com/user-attachments/assets/2a64a94f-8bf2-4bf5-b196-c1780b917722" />
-
-<img width="320" height="636" alt="Screenshot 2025-10-27 at 15 02 28" src="https://github.com/user-attachments/assets/731942b1-2ac0-4af4-9a9a-10f023206252" />
-
-<img width="312" height="630" alt="Screenshot 2025-10-27 at 15 03 12" src="https://github.com/user-attachments/assets/101b5ed7-2d61-4822-b516-63ce405a26b5" />
-
-<img width="294" height="624" alt="Screenshot 2025-10-27 at 15 02 54" src="https://github.com/user-attachments/assets/a4693c5e-0cb7-46d1-a34f-8779ad6560cd" />
-
-
-
-📦 Installation
-# Clone the repo
-git clone https://github.com/ifrahMoh24/SmartMeal.git  
-
-# Open in Xcode
-cd SmartMeal
-open SmartMeal.xcodeproj
-
-# Run on iOS simulator or device
-
-📈 Future Roadmap
-
-🌍 Multi-language support
-
-🔄 Integration with nutrition APIs for real-time calories/macros
-
-🧑‍🤝‍🧑 Social sharing (share meal plans with friends)
-
-☁️ Cloud sync across devices
-
-🔗 Repository
-
-👉 SmartMeal GitHub Repo
+## 👤 Author
+Ifrah Mohamed  
+[LinkedIn](https://linkedin.com/in/ifrah-mohamed-4233b7225) | [GitHub](https://github.com/ifrahMoh24)
